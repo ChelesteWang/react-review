@@ -1,10 +1,14 @@
 ## layout
 
+实现 layout 组件包含布局内容的组件 props 传入
+
 ## List
 
 ## modal
 
 ## request
+
+API 抽离出来，request 请求封装如 swr ，react-query , ahooks(useRequest), 使用 useEffect 获取数据
 
 ## 区分容器组件与视图组件
 
