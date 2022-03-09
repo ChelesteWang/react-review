@@ -9,9 +9,12 @@ Context 可能会造成不必要的渲染。一旦 context 里的 value 发生�
 感知变更： Hook 中的行为能够改变 Store 的状态，也要能被 Store 所感知到
 发布更新： Store 一旦变更，需要驱动所有订阅更新的 Component 更新
 
-1. Proxy 监听状态
-2. 传统 Redux
-3. Hook 思想
+- Hooks 
+- FSM 如 Xstate 状态机
+- Reactive 如 Rxjs 响应式
+- Atomic 如 Recoil 原子化 
+- Unidirectional 如 Redux 单向数据流
+- Bidirectional 如 MobX 双向数据流
 
 ## 贪婪更新与惰性更新
 
