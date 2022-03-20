@@ -21,4 +21,5 @@ export default function compose(...funcs) {
 
 - react-redux
 - redux-thunk
+- redux-promise
 - redux-saga
