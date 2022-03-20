@@ -17,3 +17,8 @@ export default function compose(...funcs) {
   return (...args) => rest.reduceRight((composed, f) => f(composed), last(...args))
 }
 ```
+## redux 相关
+
+- react-redux
+- redux-thunk
+- redux-saga
