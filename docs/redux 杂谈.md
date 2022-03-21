@@ -23,3 +23,6 @@ export default function compose(...funcs) {
 - redux-thunk
 - redux-promise
 - redux-saga
+
+学习参考
+[关于react 中间件 react-sage 和 react-thunk的使用](https://juejin.cn/post/6844903989314584590)
